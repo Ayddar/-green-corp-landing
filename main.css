@@ -21,16 +21,17 @@ header {
     font-weight: 600;
     margin-right: 25px;
   }
-  button {
+  button:hover {
     font-family: 'Raleway', sans—serif;
     font-size: 15px;
     color: #fff;
-    background-color: #23a030;
+    background-color: #f6980c;
     border: none;
     border-radius: 15px;
     cursor: pointer;
-    box-shadow: 0 16px 36px rgb(52 213 68 / 22%);
+    box-shadow: 0 16px 36px rgba(246 152 12 / 20%);
     padding: 15px;
+    transition: background-color 0.3s ease-in, box-shadow 0.3s ease-in;
   }
   .about__image {
     width: 500px;
@@ -73,3 +74,61 @@ header {
     background-position: center;
     background-size: cover;
   }
+  .form__container {
+    width: 550px;
+  }
+  .form {
+    background-color: #1D263A;
+    color: #fff;
+    padding-top: 115px;
+    padding-bottom: 115px;
+    text-align: center;
+  }
+  
+  .form h1 {
+    font-size: 48px;
+  }
+  
+  .form p {
+    font-size: 18px;
+    opacity: 0.65;
+  }
+  .form {
+    .form {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .form__group {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+  .form form {
+    display: grid;
+    grid-gap: 20px;
+  }
+  .form {  
+    margin-top: 60px;
+  }
+  .form label {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+.footer {
+  padding: 90px 20px;
+  font-size: 16px;
+  font-weight: 600;
+ }
+.footer__container {
+  display: flex;
+  justify-content: center;
+}
+
+.footer__copyright {
+  margin-top: 40px;
+  text-align: center;
+  opacity: 0.5;
+}
+  
